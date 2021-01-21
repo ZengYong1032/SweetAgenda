@@ -13,6 +13,15 @@
 		1C92CF3525B82D67009D7781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C92CF3425B82D67009D7781 /* Assets.xcassets */; };
 		1C92CF3825B82D67009D7781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C92CF3625B82D67009D7781 /* LaunchScreen.storyboard */; };
 		1C92CF3B25B82D67009D7781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92CF3A25B82D67009D7781 /* main.m */; };
+		1CD5A92A25B95D67007B4D7C /* ZYTranslucentBackground_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A92825B95D67007B4D7C /* ZYTranslucentBackground_View.m */; };
+		1CD5A93025B95E73007B4D7C /* ZYConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A92F25B95E73007B4D7C /* ZYConvertTool.m */; };
+		1CD5A93525B9601A007B4D7C /* CALayer+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A93425B9601A007B4D7C /* CALayer+UIColor.m */; };
+		1CD5A93B25B960A5007B4D7C /* ZYColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A93A25B960A5007B4D7C /* ZYColorTool.m */; };
+		1CD5A93F25B960FF007B4D7C /* ZYMethodTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A93D25B960FF007B4D7C /* ZYMethodTool.m */; };
+		1CD5A94325B961C7007B4D7C /* ZYEncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A94225B961C7007B4D7C /* ZYEncodeTool.m */; };
+		1CD5A94725B96276007B4D7C /* NSTimer+YZSafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A94625B96276007B4D7C /* NSTimer+YZSafeTimer.m */; };
+		1CD5A94B25B96575007B4D7C /* ZYPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A94A25B96575007B4D7C /* ZYPayTool.m */; };
+		1CD5A95025B96665007B4D7C /* ZYStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A94E25B96665007B4D7C /* ZYStringTool.m */; };
 		58841A646BFF155A1A1A487E /* libPods-SweetAgenda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF7B6AE450AEBB8D7B9586A /* libPods-SweetAgenda.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +41,27 @@
 		1C92CF3725B82D67009D7781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C92CF3925B82D67009D7781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C92CF3A25B82D67009D7781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CD5A92525B9525F007B4D7C /* YZCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCommon.h; sourceTree = "<group>"; };
+		1CD5A92825B95D67007B4D7C /* ZYTranslucentBackground_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTranslucentBackground_View.m; sourceTree = "<group>"; };
+		1CD5A92925B95D67007B4D7C /* ZYTranslucentBackground_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTranslucentBackground_View.h; sourceTree = "<group>"; };
+		1CD5A92C25B95D99007B4D7C /* Preprocessing_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preprocessing_Header.h; sourceTree = "<group>"; };
+		1CD5A92E25B95E73007B4D7C /* ZYConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYConvertTool.h; sourceTree = "<group>"; };
+		1CD5A92F25B95E73007B4D7C /* ZYConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYConvertTool.m; sourceTree = "<group>"; };
+		1CD5A93225B9601A007B4D7C /* CALayer+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+UIColor.h"; sourceTree = "<group>"; };
+		1CD5A93325B9601A007B4D7C /* CALayer+ZYUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZYUIColor.h"; sourceTree = "<group>"; };
+		1CD5A93425B9601A007B4D7C /* CALayer+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+UIColor.m"; sourceTree = "<group>"; };
+		1CD5A93925B960A5007B4D7C /* ZYColorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYColorTool.h; sourceTree = "<group>"; };
+		1CD5A93A25B960A5007B4D7C /* ZYColorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYColorTool.m; sourceTree = "<group>"; };
+		1CD5A93D25B960FF007B4D7C /* ZYMethodTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMethodTool.m; sourceTree = "<group>"; };
+		1CD5A93E25B960FF007B4D7C /* ZYMethodTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMethodTool.h; sourceTree = "<group>"; };
+		1CD5A94125B961C7007B4D7C /* ZYEncodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYEncodeTool.h; sourceTree = "<group>"; };
+		1CD5A94225B961C7007B4D7C /* ZYEncodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYEncodeTool.m; sourceTree = "<group>"; };
+		1CD5A94525B96276007B4D7C /* NSTimer+YZSafeTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YZSafeTimer.h"; sourceTree = "<group>"; };
+		1CD5A94625B96276007B4D7C /* NSTimer+YZSafeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YZSafeTimer.m"; sourceTree = "<group>"; };
+		1CD5A94925B96574007B4D7C /* ZYPayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPayTool.h; sourceTree = "<group>"; };
+		1CD5A94A25B96575007B4D7C /* ZYPayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPayTool.m; sourceTree = "<group>"; };
+		1CD5A94E25B96665007B4D7C /* ZYStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYStringTool.m; sourceTree = "<group>"; };
+		1CD5A94F25B96665007B4D7C /* ZYStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStringTool.h; sourceTree = "<group>"; };
 		25D98EAA6238ABB72B9C51A9 /* Pods-SweetAgenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetAgenda.release.xcconfig"; path = "Target Support Files/Pods-SweetAgenda/Pods-SweetAgenda.release.xcconfig"; sourceTree = "<group>"; };
 		FAF7B6AE450AEBB8D7B9586A /* libPods-SweetAgenda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SweetAgenda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED90E254FD8FDBE258CAD27 /* Pods-SweetAgenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetAgenda.debug.xcconfig"; path = "Target Support Files/Pods-SweetAgenda/Pods-SweetAgenda.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +82,8 @@
 		1C4D661425B9046400862988 /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				1CD5A92C25B95D99007B4D7C /* Preprocessing_Header.h */,
+				1CD5A92525B9525F007B4D7C /* YZCommon.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -77,6 +109,9 @@
 		1C4D661725B9046400862988 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1CD5A93725B96030007B4D7C /* View */,
+				1CD5A92625B9557F007B4D7C /* Categray */,
+				1CD5A92725B9557F007B4D7C /* Tool */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -192,6 +227,46 @@
 			path = SweetAgenda;
 			sourceTree = "<group>";
 		};
+		1CD5A92625B9557F007B4D7C /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+				1CD5A94525B96276007B4D7C /* NSTimer+YZSafeTimer.h */,
+				1CD5A94625B96276007B4D7C /* NSTimer+YZSafeTimer.m */,
+				1CD5A93225B9601A007B4D7C /* CALayer+UIColor.h */,
+				1CD5A93425B9601A007B4D7C /* CALayer+UIColor.m */,
+				1CD5A93325B9601A007B4D7C /* CALayer+ZYUIColor.h */,
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		1CD5A92725B9557F007B4D7C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1CD5A94F25B96665007B4D7C /* ZYStringTool.h */,
+				1CD5A94E25B96665007B4D7C /* ZYStringTool.m */,
+				1CD5A94925B96574007B4D7C /* ZYPayTool.h */,
+				1CD5A94A25B96575007B4D7C /* ZYPayTool.m */,
+				1CD5A94125B961C7007B4D7C /* ZYEncodeTool.h */,
+				1CD5A94225B961C7007B4D7C /* ZYEncodeTool.m */,
+				1CD5A93E25B960FF007B4D7C /* ZYMethodTool.h */,
+				1CD5A93D25B960FF007B4D7C /* ZYMethodTool.m */,
+				1CD5A93925B960A5007B4D7C /* ZYColorTool.h */,
+				1CD5A93A25B960A5007B4D7C /* ZYColorTool.m */,
+				1CD5A92E25B95E73007B4D7C /* ZYConvertTool.h */,
+				1CD5A92F25B95E73007B4D7C /* ZYConvertTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1CD5A93725B96030007B4D7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CD5A92925B95D67007B4D7C /* ZYTranslucentBackground_View.h */,
+				1CD5A92825B95D67007B4D7C /* ZYTranslucentBackground_View.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		280399F5F64D98F364A3D0BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,10 +380,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD5A93B25B960A5007B4D7C /* ZYColorTool.m in Sources */,
+				1CD5A93025B95E73007B4D7C /* ZYConvertTool.m in Sources */,
 				1C92CF2A25B82D63009D7781 /* AppDelegate.m in Sources */,
+				1CD5A94725B96276007B4D7C /* NSTimer+YZSafeTimer.m in Sources */,
 				1C92CF3B25B82D67009D7781 /* main.m in Sources */,
 				1C92CF2D25B82D63009D7781 /* SceneDelegate.m in Sources */,
+				1CD5A94B25B96575007B4D7C /* ZYPayTool.m in Sources */,
 				1C4D663925B913F000862988 /* SAMain_VC.m in Sources */,
+				1CD5A94325B961C7007B4D7C /* ZYEncodeTool.m in Sources */,
+				1CD5A92A25B95D67007B4D7C /* ZYTranslucentBackground_View.m in Sources */,
+				1CD5A93525B9601A007B4D7C /* CALayer+UIColor.m in Sources */,
+				1CD5A95025B96665007B4D7C /* ZYStringTool.m in Sources */,
+				1CD5A93F25B960FF007B4D7C /* ZYMethodTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
