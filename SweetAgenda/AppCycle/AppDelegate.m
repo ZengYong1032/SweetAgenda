@@ -19,7 +19,6 @@
     return YES;
 }
 
-
 #pragma mark - UISceneSession lifecycle
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options  API_AVAILABLE(ios(13.0)){
     // Called when a new scene session is being created.

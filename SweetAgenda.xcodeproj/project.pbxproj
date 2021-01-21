@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4D663925B913F000862988 /* SAMain_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D663825B913F000862988 /* SAMain_VC.m */; };
 		1C92CF2A25B82D63009D7781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92CF2925B82D63009D7781 /* AppDelegate.m */; };
 		1C92CF2D25B82D63009D7781 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92CF2C25B82D63009D7781 /* SceneDelegate.m */; };
-		1C92CF3025B82D63009D7781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92CF2F25B82D63009D7781 /* ViewController.m */; };
-		1C92CF3325B82D63009D7781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C92CF3125B82D63009D7781 /* Main.storyboard */; };
 		1C92CF3525B82D67009D7781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C92CF3425B82D67009D7781 /* Assets.xcassets */; };
 		1C92CF3825B82D67009D7781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C92CF3625B82D67009D7781 /* LaunchScreen.storyboard */; };
 		1C92CF3B25B82D67009D7781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92CF3A25B82D67009D7781 /* main.m */; };
+		58841A646BFF155A1A1A487E /* libPods-SweetAgenda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF7B6AE450AEBB8D7B9586A /* libPods-SweetAgenda.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4D661B25B905EF00862988 /* SweetAgenda_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetAgenda_PrefixHeader.pch; sourceTree = "<group>"; };
+		1C4D662D25B9104400862988 /* SANormalProjectColor_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SANormalProjectColor_Header.h; sourceTree = "<group>"; };
+		1C4D662E25B9105900862988 /* SANetworkingURL_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SANetworkingURL_Header.h; sourceTree = "<group>"; };
+		1C4D663725B913F000862988 /* SAMain_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMain_VC.h; sourceTree = "<group>"; };
+		1C4D663825B913F000862988 /* SAMain_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMain_VC.m; sourceTree = "<group>"; };
+		1C4D663B25B9142700862988 /* SAProjectFile_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAProjectFile_Header.h; sourceTree = "<group>"; };
 		1C92CF2525B82D63009D7781 /* SweetAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C92CF2825B82D63009D7781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C92CF2925B82D63009D7781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1C92CF2B25B82D63009D7781 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		1C92CF2C25B82D63009D7781 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		1C92CF2E25B82D63009D7781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C92CF2F25B82D63009D7781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1C92CF3225B82D63009D7781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C92CF3425B82D67009D7781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C92CF3725B82D67009D7781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C92CF3925B82D67009D7781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C92CF3A25B82D67009D7781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25D98EAA6238ABB72B9C51A9 /* Pods-SweetAgenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetAgenda.release.xcconfig"; path = "Target Support Files/Pods-SweetAgenda/Pods-SweetAgenda.release.xcconfig"; sourceTree = "<group>"; };
+		FAF7B6AE450AEBB8D7B9586A /* libPods-SweetAgenda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SweetAgenda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED90E254FD8FDBE258CAD27 /* Pods-SweetAgenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetAgenda.debug.xcconfig"; path = "Target Support Files/Pods-SweetAgenda/Pods-SweetAgenda.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +42,128 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58841A646BFF155A1A1A487E /* libPods-SweetAgenda.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4D661425B9046400862988 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		1C4D661525B9046400862988 /* Mannager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mannager;
+			sourceTree = "<group>";
+		};
+		1C4D661625B9046400862988 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D661B25B905EF00862988 /* SweetAgenda_PrefixHeader.pch */,
+				1C4D662D25B9104400862988 /* SANormalProjectColor_Header.h */,
+				1C4D662E25B9105900862988 /* SANetworkingURL_Header.h */,
+				1C4D663B25B9142700862988 /* SAProjectFile_Header.h */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		1C4D661725B9046400862988 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1C4D661825B9046400862988 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D662F25B9114700862988 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1C4D661925B904C200862988 /* AppCycle */ = {
+			isa = PBXGroup;
+			children = (
+				1C92CF2825B82D63009D7781 /* AppDelegate.h */,
+				1C92CF2925B82D63009D7781 /* AppDelegate.m */,
+				1C92CF2B25B82D63009D7781 /* SceneDelegate.h */,
+				1C92CF2C25B82D63009D7781 /* SceneDelegate.m */,
+			);
+			path = AppCycle;
+			sourceTree = "<group>";
+		};
+		1C4D662F25B9114700862988 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D663425B9114700862988 /* Controllers */,
+				1C4D663025B9114700862988 /* Models */,
+				1C4D663325B9114700862988 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1C4D663025B9114700862988 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D663125B9114700862988 /* CellModel */,
+				1C4D663225B9114700862988 /* DataModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C4D663125B9114700862988 /* CellModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CellModel;
+			sourceTree = "<group>";
+		};
+		1C4D663225B9114700862988 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		1C4D663325B9114700862988 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C4D663425B9114700862988 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D663725B913F000862988 /* SAMain_VC.h */,
+				1C4D663825B913F000862988 /* SAMain_VC.m */,
+				1C4D663525B9114700862988 /* SecondVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1C4D663525B9114700862988 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
 		1C92CF1C25B82D63009D7781 = {
 			isa = PBXGroup;
 			children = (
 				1C92CF2725B82D63009D7781 /* SweetAgenda */,
 				1C92CF2625B82D63009D7781 /* Products */,
+				EE672EB2C0D734E2E134B343 /* Pods */,
+				280399F5F64D98F364A3D0BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +178,35 @@
 		1C92CF2725B82D63009D7781 /* SweetAgenda */ = {
 			isa = PBXGroup;
 			children = (
-				1C92CF2825B82D63009D7781 /* AppDelegate.h */,
-				1C92CF2925B82D63009D7781 /* AppDelegate.m */,
-				1C92CF2B25B82D63009D7781 /* SceneDelegate.h */,
-				1C92CF2C25B82D63009D7781 /* SceneDelegate.m */,
-				1C92CF2E25B82D63009D7781 /* ViewController.h */,
-				1C92CF2F25B82D63009D7781 /* ViewController.m */,
-				1C92CF3125B82D63009D7781 /* Main.storyboard */,
+				1C4D661925B904C200862988 /* AppCycle */,
+				1C4D661425B9046400862988 /* Define */,
+				1C4D661525B9046400862988 /* Mannager */,
+				1C4D661825B9046400862988 /* Modules */,
+				1C4D661725B9046400862988 /* Utils */,
+				1C4D661625B9046400862988 /* OtherFiles */,
 				1C92CF3425B82D67009D7781 /* Assets.xcassets */,
 				1C92CF3625B82D67009D7781 /* LaunchScreen.storyboard */,
 				1C92CF3925B82D67009D7781 /* Info.plist */,
 				1C92CF3A25B82D67009D7781 /* main.m */,
 			);
 			path = SweetAgenda;
+			sourceTree = "<group>";
+		};
+		280399F5F64D98F364A3D0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7B6AE450AEBB8D7B9586A /* libPods-SweetAgenda.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE672EB2C0D734E2E134B343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED90E254FD8FDBE258CAD27 /* Pods-SweetAgenda.debug.xcconfig */,
+				25D98EAA6238ABB72B9C51A9 /* Pods-SweetAgenda.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C92CF3E25B82D67009D7781 /* Build configuration list for PBXNativeTarget "SweetAgenda" */;
 			buildPhases = (
+				1D40E90BC09831CAAFCE0252 /* [CP] Check Pods Manifest.lock */,
 				1C92CF2125B82D63009D7781 /* Sources */,
 				1C92CF2225B82D63009D7781 /* Frameworks */,
 				1C92CF2325B82D63009D7781 /* Resources */,
@@ -102,7 +236,7 @@
 		1C92CF1D25B82D63009D7781 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = GGS;
+				CLASSPREFIX = SA;
 				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = GreekMythology;
 				TargetAttributes = {
@@ -136,35 +270,51 @@
 			files = (
 				1C92CF3825B82D67009D7781 /* LaunchScreen.storyboard in Resources */,
 				1C92CF3525B82D67009D7781 /* Assets.xcassets in Resources */,
-				1C92CF3325B82D63009D7781 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D40E90BC09831CAAFCE0252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetAgenda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C92CF2125B82D63009D7781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C92CF3025B82D63009D7781 /* ViewController.m in Sources */,
 				1C92CF2A25B82D63009D7781 /* AppDelegate.m in Sources */,
 				1C92CF3B25B82D67009D7781 /* main.m in Sources */,
 				1C92CF2D25B82D63009D7781 /* SceneDelegate.m in Sources */,
+				1C4D663925B913F000862988 /* SAMain_VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1C92CF3125B82D63009D7781 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C92CF3225B82D63009D7781 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1C92CF3625B82D67009D7781 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -227,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -280,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,13 +440,15 @@
 		};
 		1C92CF3F25B82D67009D7781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED90E254FD8FDBE258CAD27 /* Pods-SweetAgenda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYRNH9PJH3;
+				GCC_PREFIX_HEADER = SweetAgenda/OtherFiles/SweetAgenda_PrefixHeader.pch;
 				INFOPLIST_FILE = SweetAgenda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,13 +461,15 @@
 		};
 		1C92CF4025B82D67009D7781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D98EAA6238ABB72B9C51A9 /* Pods-SweetAgenda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYRNH9PJH3;
+				GCC_PREFIX_HEADER = SweetAgenda/OtherFiles/SweetAgenda_PrefixHeader.pch;
 				INFOPLIST_FILE = SweetAgenda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
