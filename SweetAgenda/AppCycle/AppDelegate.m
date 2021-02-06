@@ -17,6 +17,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    if (@available(iOS 13.0, *)) {
+        
+    } else {
+        _window = [[UIWindow alloc] initWithFrame:kScreen_Bounds];
+        _window.backgroundColor = kWhiteColor;
+        [_window setRootViewController:[[UINavigationController alloc] initWithRootViewController:[SAMain_VC new]]];
+        [_window makeKeyAndVisible];
+    }
+    
     return YES;
 }
 
